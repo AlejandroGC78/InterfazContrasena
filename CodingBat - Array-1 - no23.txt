@@ -1,0 +1,7 @@
+/*Se testea en CodingBat: Array-1 > no23*/
+public boolean no23(int[] n) {
+  if (n[0] != 2 && n[0] != 3 && n[1] != 2 && n[1] != 3)
+    return true;
+  else
+    return false;
+}
